@@ -1,0 +1,36 @@
+.header1, 
+.header2,
+.header3, 
+.header4,
+.header5{
+    display: flex;
+    justify-content: center;
+    border-bottom: grey solid;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+
+    
+}
+header{
+    font-size: 3rem;
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+    display: block;
+ 
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    line-height: 200%;
+
+}
+
+.proj1,
+.proj2,
+.proj3,
+.proj4,
+.proj5{
+    padding: 10%;
+}
