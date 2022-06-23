@@ -34,3 +34,106 @@ h1{
 .proj5{
     padding: 10%;
 }
+.codeimg{
+    display: flex;
+    height: 50vh;
+    width: 20%;
+    margin-right: 20%
+  
+}
+.proj1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.codedesc{
+    width: 30%;
+    font-size: 1.5rem;
+    line-height: 200%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .proj1{
+        display: block;
+    }
+    .codedesc{
+        width: 100%;
+        font-size: 14px;
+    }
+    .codeimg{
+        height: 20vh;
+        width: 20%;
+    }
+   .header1,
+   .header2,
+   .header3,
+   .header4,
+    .header5
+    {
+        font-size: 24px;
+    }
+    header{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .proj1{
+        display: block;
+    }
+    .codedesc{
+        width: 100%;
+        font-size: 14px;
+    }
+    .codeimg{
+        height: 20vh;
+        width: 20%;
+    }
+   .header1,
+   .header2,
+   .header3,
+   .header4,
+    .header5
+    {
+        font-size: 24px;
+    }
+    header{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    
+  }
+  @media only screen and (max-width: 1400px) {
+       .proj1{
+        display: block;
+    }
+    .codedesc{
+        width: 100%;
+        font-size: 14px;
+    }
+    .codeimg{
+       margin-left: 20%;
+    }
+   .header1,
+   .header2,
+   .header3,
+   .header4,
+    .header5
+    {
+        font-size: 24px;
+    }
+    header{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 14px;
+    }
+
+  }
+ 

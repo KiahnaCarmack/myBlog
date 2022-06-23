@@ -1,4 +1,5 @@
 import './Styles/Projects.css'
+import Code from './codequiz.png'
 
 export default function  Projects (){
     return (
@@ -11,13 +12,17 @@ Yes, I can say I know how to use React, make a CRUD website or, utilize API's bu
 So...let me show you what this Southern Girl is made of! 🤓
         </h1>
 <div className="projcontainer">
+<header className="header1"> Test your Coding Knowledge</header>
     <div className="proj1">
-    <header className="header1"> Test your Coding Knowledge</header>
-<p>
-Lorem ipsum is placeholder text commonly used in the graphic, print, 
-and publishing industries for previewing layouts and visual mockups.
+<p className="codedesc">
+During my time at the UW, a coding quiz was one of the first assignments I had to create.
+At that time, I struggled just to understand what I was even looking at. I decided for my portfolio projects, I would utilize React
+as much as possible. I find the library so much more streamline! Click <a href="https://multichoicecodequiz.herokuapp.com/"> Here </a> to try it out. (this app is mobile responsive).
 </p>
- </div>
+<div className="codeimg">
+<img src={Code} alt="Logo" />
+</div>
+</div>
  <div className="proj2">
  <header className="header2"> Virtual Keyboard</header>
 <p>
