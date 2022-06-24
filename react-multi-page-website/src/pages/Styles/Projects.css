@@ -36,9 +36,10 @@ h1{
 }
 .codeimg{
     display: flex;
-    height: 50vh;
+    height: 40vh;
     width: 20%;
-    margin-right: 20%
+    margin-right: 20%;
+    
   
 }
 .proj1{
@@ -47,93 +48,75 @@ h1{
 }
 
 .codedesc{
-    width: 30%;
+    width: 80%;
     font-size: 1.5rem;
     line-height: 200%;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 768px) {
-    .proj1{
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+.proj1{
+    display: block;
+    margin: 0%;
+    width: 100%;
+    
+}
+.codeimg{
+    height: 50vh;
+    width: 50%;
+    margin-left: 15%;
+}
+.codedesc{
+    margin-left: 10%;
+}
+header{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    proj1{
         display: block;
-    }
-    .codedesc{
+        margin: 0%;
         width: 100%;
-        font-size: 14px;
+        
     }
     .codeimg{
         height: 20vh;
         width: 20%;
     }
-   .header1,
-   .header2,
-   .header3,
-   .header4,
-    .header5
-    {
-        font-size: 24px;
-    }
-    header{
-        font-size: 24px;
-    }
-    h1{
-        font-size: 14px;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .proj1{
-        display: block;
-    }
+.header1,
+.header2,
+.header3,
+.header4,
+.header5{
+    font-size:20px;
+}    
+.codedesc{
+    font-size: 16px;
+    margin-left: 10%;
+}
+header{
+    font-size: 20px;
+}
+h1{
+    font-size: 16px;
+}
+
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
     .codedesc{
-        width: 100%;
-        font-size: 14px;
-    }
-    .codeimg{
-        height: 20vh;
-        width: 20%;
-    }
-   .header1,
-   .header2,
-   .header3,
-   .header4,
-    .header5
-    {
-        font-size: 24px;
-    }
-    header{
-        font-size: 24px;
-    }
-    h1{
-        font-size: 14px;
+        margin-left: 20%;
     }
     
-  }
-  @media only screen and (max-width: 1400px) {
-       .proj1{
-        display: block;
-    }
-    .codedesc{
-        width: 100%;
-        font-size: 14px;
-    }
-    .codeimg{
-       margin-left: 20%;
-    }
-   .header1,
-   .header2,
-   .header3,
-   .header4,
-    .header5
-    {
-        font-size: 24px;
-    }
-    header{
-        font-size: 24px;
-    }
-    h1{
-        font-size: 14px;
-    }
-
-  }
- 
+}
